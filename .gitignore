@@ -8,6 +8,8 @@ https://www.toptal.com/developers/gitignore?templates=vue,vuejs,phpstorm,jetbrai
 WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+.idea/*
+.idea
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
