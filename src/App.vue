@@ -1,22 +1,27 @@
 <template>
-  <map-item />
+    <map-item/>
 </template>
 
 <script>
 import MapItem from "@/components/Map/MapItem";
 
 export default {
-  name: 'App',
-  components: {
-    'map-item': MapItem
-  }
+    name: 'App',
+    components: {
+        'map-item': MapItem
+    }
 }
 </script>
 
 <style>
-html,body{width:100%;height: 100%;margin:0}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
 #app {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 </style>
