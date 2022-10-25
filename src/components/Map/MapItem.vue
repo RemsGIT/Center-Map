@@ -1,5 +1,5 @@
 <template>
-    <div id="app-map"></div>
+    <div id="app-map" ></div>
 </template>
 
 <script>
@@ -25,10 +25,13 @@ export default {
 
         // Générations des markers
         this.points.forEach((element) => {
-            new leaflet.Marker([element.lat, element.lng]).addTo(map)
+            new leaflet.Marker([element.lat, element.lng]).on('click', () => {this.clickOnMarker(element)}).addTo(map)
         })
 
+        // Chargement du geoJSON
         leaflet.geoJSON(geojson).addTo(map)
+
+        // Génération du fond de carte
         leaflet.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmVteWNhcyIsImEiOiJjbDlvOWs4Y3UwY2xsNDFrNGRqNDIxMThvIn0.052x69fiyb0ek6wqvOjGMA', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -37,6 +40,11 @@ export default {
             tileSize: 512,
             accessToken: "pk.eyJ1IjoicmVteWNhcyIsImEiOiJjbDlvOWs4Y3UwY2xsNDFrNGRqNDIxMThvIn0.052x69fiyb0ek6wqvOjGMA"
         }).addTo(map);
+    },
+    methods: {
+        clickOnMarker(point){
+            this.$emit('clickOnMarker', point)
+        }
     }
 }
 </script>

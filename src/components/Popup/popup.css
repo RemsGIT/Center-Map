@@ -1,0 +1,53 @@
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #fff;
+    border-radius: 16px;
+
+    padding: 25px;
+}
+
+.modal h1 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.modal p {
+    color: #666;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.modal .button {
+    cursor: pointer;
+}
+
+/* Animation */
+.fade-enter-active , .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter-from, .fade-leave-to {
+    opacity: 0;
+}
