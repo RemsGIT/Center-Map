@@ -17,19 +17,63 @@
     transform: translate(-50%, -50%);
     z-index: 501;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
 
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 20px;
+}
 
-    padding: 25px;
+.modal .modal-close {
+    cursor: pointer;
+    position: absolute;
+    padding: 7px 12px;
+    right: -8px;
+    top: -8px;
+    border-radius: 5px;
+    transition: all .2s ease;
+    background-color: #BE8A62;
+    color: #fff;
+}
+.modal .modal-close:hover{
+    transform: translateY(-2px) translateX(2px);
+}
+.modal .modal-header img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.modal-content {
+    padding: 0 20px 20px;
 }
 
 .modal h1 {
     color: #222;
-    font-size: 32px;
-    font-weight: 900;
-    margin-bottom: 15px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.modal-menu{
+    display: flex;
+    justify-content: center;
+    background-color: #F3E8E0;
+    width: 100%;
+    border-radius: 5px;
+}
+.modal-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.modal-menu-list li{
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.modal-menu-list.general .general,
+.modal-menu-list.rooms .rooms,
+.modal-menu-list.amphi .amphi {
+    border-bottom: 2px solid #BE8A62;
 }
 
 .modal p {
@@ -39,8 +83,28 @@
     margin-bottom: 15px;
 }
 
+
+.modal-content .border{
+    height: .3px;
+    background-color: gray;
+    margin-top: 30px;
+}
 .modal .button {
     cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #BE8A62;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 10px;
+    transition: all .3s;
+    text-align: right;
+}
+.modal .button:hover{
+    background-color: #a17145;
 }
 
 /* Animation */
