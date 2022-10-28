@@ -24,10 +24,14 @@ export default {
         map.on('click', (e) => {
             console.log(e.latlng)
         })
-        // Générations des markers
+
+
+        // Génération des markers bâtiment UPJV
         this.upjvPoints.forEach((element) => {
             new leaflet.Marker([element.lat, element.lng]).on('click', () => {this.clickOnMarker(element)}).addTo(map)
         })
+
+        // Génération des markers bibliothèque universitaire
         this.buPoints.forEach((element) => {
             new leaflet.Marker([element.lat, element.lng]).on('click', () => {this.clickOnMarker(element)}).addTo(map)
         })
