@@ -16,13 +16,7 @@
                 <h1>{{ point.name }}</h1>
 
                 <!-- Menu -->
-                <nav class="modal-menu">
-                    <ul :class="`modal-menu-list ${active}`">
-                        <li class="general" @click="switchMenu('general')" >Informations générales</li>
-                        <li class="rooms" @click="switchMenu('rooms')">Salles</li>
-                        <li class="amphi" @click="switchMenu('amphi')">Amphithéatres</li>
-                    </ul>
-                </nav>
+                <Menu :list-menus="getMenuItems()" :point="point"/>
 
                 <!-- Content of menu -->
                 <div class="modal-content">
@@ -51,8 +45,12 @@
 </template>
 
 <script>
+import Menu from "@/components/Popup/Menu";
 export default {
     name: "Pop-up",
+    components: {
+        Menu
+    },
     props: {
         point: {
             type: Object,
@@ -72,6 +70,22 @@ export default {
         },
         closeModal() {
             this.$emit('stateModal', 'close')
+        },
+        getMenuItems(){
+            switch(this.point.type){
+                case 'upjvBuilding':
+                    return {
+                        general: 'Informations générales',
+                        rooms: 'Salles',
+                        amphi: 'Amphithéatres'
+                    }
+                case 'upjvBU':
+                    return {
+                        general: 'Informations générales',
+                        subjects: 'Matières',
+                        pictures: 'Photos'
+                    }
+            }
         }
     }
 }

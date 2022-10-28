@@ -5,13 +5,15 @@
 <script>
 import leaflet from 'leaflet'
 import upjvPoints from "../../../data/points/upjv";
+import buPoints from "../../../data/points/bibliotheque";
 import geojson from "../../../data/geojson/geojson";
 
 export default {
     name: "MapItem",
     data() {
         return {
-            points: upjvPoints
+            upjvPoints: upjvPoints,
+            buPoints: buPoints
         }
     },
     mounted() {
@@ -22,9 +24,11 @@ export default {
         map.on('click', (e) => {
             console.log(e.latlng)
         })
-
         // Générations des markers
-        this.points.forEach((element) => {
+        this.upjvPoints.forEach((element) => {
+            new leaflet.Marker([element.lat, element.lng]).on('click', () => {this.clickOnMarker(element)}).addTo(map)
+        })
+        this.buPoints.forEach((element) => {
             new leaflet.Marker([element.lat, element.lng]).on('click', () => {this.clickOnMarker(element)}).addTo(map)
         })
 

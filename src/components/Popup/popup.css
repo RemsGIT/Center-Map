@@ -70,11 +70,6 @@
     display: inline-block;
     cursor: pointer;
 }
-.modal-menu-list.general .general,
-.modal-menu-list.rooms .rooms,
-.modal-menu-list.amphi .amphi {
-    border-bottom: 2px solid #BE8A62;
-}
 
 .modal p {
     color: #666;
@@ -114,4 +109,15 @@
 
 .fade-enter-from, .fade-leave-to {
     opacity: 0;
+}
+
+
+/* MENU -> CSS ACTIVE*/
+.modal-menu-list.general .general,
+.modal-menu-list.rooms .rooms,
+.modal-menu-list.amphi .amphi,
+.modal-menu-list.subjects .subjects,
+.modal-menu-list.pictures .pictures
+{
+    border-bottom: 2px solid #BE8A62;
 }
