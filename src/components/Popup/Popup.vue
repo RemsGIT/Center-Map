@@ -16,24 +16,14 @@
                 <h1>{{ point.name }}</h1>
 
                 <!-- Menu -->
-                <Menu :list-menus="getMenuItems()" :point="point"/>
+                <Menu :list-menus="getMenuItems()" :point="point" @changeMenu="getNewMenu"/>
 
-                <!-- Content of menu -->
+                <!-- Content -->
                 <div class="modal-content">
-                    <!-- Informations générales -->
-                    <template v-if="active === 'general'">
-                    </template>
-
-                    <!-- Les salles -->
-                    <template v-if="active === 'rooms'">
-                        {{point.rooms}}
-                    </template>
-
-                    <!-- Les amphithéatres -->
-                    <template v-if="active === 'amphi'">
-                        {{point.amphitheaters}}
-                    </template>
+                    <UpjvContent :active="active" :point="point" v-if="point.type === 'upjvBuilding'"/>
+                    <BuContent :active="active" :point="point" v-if="point.type === 'upjvBU'" />
                 </div>
+
 
                 <!-- Footer -->
 
@@ -46,17 +36,21 @@
 
 <script>
 import Menu from "@/components/Popup/Menu";
+import UpjvContent from "@/components/Popup/Contents/UpjvContent";
+import BuContent from "@/components/Popup/Contents/BuContent";
+
 export default {
     name: "Pop-up",
     components: {
-        Menu
+        Menu,
+        UpjvContent,
+        BuContent
     },
     props: {
         point: {
             type: Object,
             required: true,
-            default: () => {
-            }
+            default: () => {}
         }
     },
     data() {
@@ -65,8 +59,8 @@ export default {
         }
     },
     methods: {
-        switchMenu(item) {
-            this.active = item
+        getNewMenu(value){
+            this.active = value
         },
         closeModal() {
             this.$emit('stateModal', 'close')

@@ -52,7 +52,7 @@ export default {
     methods: {
         clickOnMarker(point){
             this.$emit('clickOnMarker', point)
-        }
+        },
     }
 }
 </script>
@@ -65,3 +65,4 @@ export default {
     /* Use color, background, set margins for offset, etc */
 }
 </style>
+

@@ -7,7 +7,8 @@
 
         <!-- Les salles -->
         <template v-if="active === 'rooms'">
-            {{point.rooms}}
+            <template v-if="point.rooms.length > 0">{{point.rooms}}</template>
+            <template v-else>Aucune salle n'est renseignée pour ce bâtiment.</template>
         </template>
 
         <!-- Les amphithéatres -->
@@ -27,3 +28,4 @@ export default {
 <style scoped>
 
 </style>
+

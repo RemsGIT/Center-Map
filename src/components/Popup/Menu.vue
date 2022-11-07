@@ -7,22 +7,11 @@
             </li>
         </ul>
     </nav>
-
-    <div class="modal-content">
-        <UpjvContent :active="active" :point="point" v-if="point.type === 'upjvBuilding'"/>
-        <BuContent :active="active" :point="point" v-if="point.type === 'upjvBU'" />
-    </div>
 </template>
 
 <script>
-import UpjvContent from "@/components/Popup/Contents/UpjvContent";
-import BuContent from "@/components/Popup/Contents/BuContent";
 export default {
     name: "menu-list",
-    components: {
-        UpjvContent,
-        BuContent,
-    },
     props: {
         listMenus: {
             type: Object,
@@ -41,6 +30,7 @@ export default {
     methods: {
         switchMenu(item) {
             this.active = item
+            this.$emit('changeMenu', item)
         }
     }
 }

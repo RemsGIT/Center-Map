@@ -44,6 +44,10 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: "Montserrat";
+    src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
 html, body {
     width: 100%;
     height: 100%;
@@ -54,6 +58,7 @@ html, body {
     position: relative;
     width: 100%;
     height: 100%;
+    font-family: "Montserrat" ,serif;
 }
 
 </style>

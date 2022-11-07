@@ -2,12 +2,41 @@
     <div>
         <!-- Informations générales -->
         <template v-if="active === 'general'">
-            info générales de la bu
+            <!-- Adresse -->
+            <div class="content-group">
+                <i class="fa-regular fa-map"></i> Adresse
+                <hr>
+                <template v-if="point.address">{{point.address}}</template>
+                <p class="content-group-text" v-else>
+                    Aucune adresse n'est renseignée.
+                </p>
+            </div>
+
+            <!-- Horaires -->
+            <div class="content-group">
+                <i class="fa-regular fa-clock"></i> Horaires
+                <hr>
+                <template v-if="point.hours">{{point.hours}}</template>
+                <p class="content-group-text" v-else>
+                    Les horaires ne sont pas renseignés.
+                </p>
+            </div>
+
+            <!-- Accessibilité -->
+            <div class="content-group">
+                <i class="fa-brands fa-accessible-icon"></i> Accessibilité
+                <hr>
+                <template v-if="point.access">{{point.access}}</template>
+                <p class="content-group-text" v-else>
+                    Aucune information sur l'accessibilité du lieu n'est renseigné.
+                </p>
+            </div>
+
         </template>
 
         <!-- Les salles -->
         <template v-if="active === 'subjects'">
-            {{point.subjects}}
+            <p v-html="point.subjects.join('<br>')"></p>
         </template>
 
         <!-- Les amphithéatres -->
@@ -26,5 +55,12 @@ export default {
 </script>
 
 <style scoped>
-
+.content-group {
+    display: block;
+    margin-top: 30px;
+}
+.content-group-text{
+    color: gray;
+    font-size: 12px;
+}
 </style>
