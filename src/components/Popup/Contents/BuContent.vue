@@ -18,7 +18,7 @@
                 <hr>
                 <template v-if="point.hours">{{point.hours}}</template>
                 <p class="content-group-text" v-else>
-                    Les horaires ne sont pas renseignés.
+                    Les horaires ne sont pas renseignées.
                 </p>
             </div>
 
@@ -28,7 +28,7 @@
                 <hr>
                 <template v-if="point.access">{{point.access}}</template>
                 <p class="content-group-text" v-else>
-                    Aucune information sur l'accessibilité du lieu n'est renseigné.
+                    Aucune information sur l'accessibilité du lieu n'est renseignée.
                 </p>
             </div>
 

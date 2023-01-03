@@ -15,7 +15,7 @@ export default {
     name: 'App',
     components: {
         'map-item': MapItem,
-        'pop-up': Popup
+        'pop-up': Popup,
     },
     data() {
         return {

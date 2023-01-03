@@ -28,8 +28,13 @@
                 <!-- Footer -->
 
                 <div class="border"></div>
-                <button class="button" @click="closeModal">Fermer</button>
+                <div class="modal-actions">
+                    <button @click="showStreetView = true">360v</button>
+                    <button class="button" @click="closeModal">Fermer</button>
+                </div>
             </div>
+
+            <street-view v-if="showStreetView" :url="point.gStreetViewLink" @stateModalStreetView="handleModalStreetView" />
         </div>
     </div>
 </template>
@@ -38,13 +43,15 @@
 import Menu from "@/components/Popup/Menu";
 import UpjvContent from "@/components/Popup/Contents/UpjvContent";
 import BuContent from "@/components/Popup/Contents/BuContent";
+import GoogleStreetView from "@/components/GoogleStreetView/GoogleStreetView";
 
 export default {
     name: "Pop-up",
     components: {
         Menu,
         UpjvContent,
-        BuContent
+        BuContent,
+        'street-view': GoogleStreetView
     },
     props: {
         point: {
@@ -55,7 +62,8 @@ export default {
     },
     data() {
         return {
-            active: "general"
+            active: "general",
+            showStreetView: false
         }
     },
     methods: {
@@ -64,6 +72,17 @@ export default {
         },
         closeModal() {
             this.$emit('stateModal', 'close')
+        },
+        handleModalStreetView(value){
+            // Change l'état de la modal : ouvre ou ferme
+            switch (value){
+                case 'open':
+                    this.showStreetView = true
+                    break;
+                case 'close':
+                    this.showStreetView = false;
+                    break;
+            }
         },
         getMenuItems(){
             switch(this.point.type){

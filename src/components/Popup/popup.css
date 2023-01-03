@@ -23,6 +23,11 @@
     border-radius: 20px;
 }
 
+.modal.modal-lg {
+    max-width: 800px !important;
+    width: max-content;
+}
+
 .modal .modal-close {
     cursor: pointer;
     position: absolute;
@@ -90,6 +95,10 @@
     height: .3px;
     background-color: gray;
     margin-top: 30px;
+}
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
 }
 .modal .button {
     cursor: pointer;
