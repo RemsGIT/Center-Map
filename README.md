@@ -29,7 +29,7 @@ l'application si les changements sont corrects)
 
 #### Modifier les informations d'un point
 
-- Ajouter les données dans l'objet "properties" :
+- Ajouter les données dans l'objet "properties"
 - Types de bâtiment : 
   - **upjvBuilding** : bâtiments UPJV
   - **upjvBU** : bibliothèques universitaires
