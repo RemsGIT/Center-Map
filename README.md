@@ -38,7 +38,7 @@ l'application si les changements sont corrects)
 
 <!-- --> 
 - BÂTIMENTS UPJV
-```json
+```js
 "properties": {
     type: 'upjvBuilding',
     name: 'UFR des sciences - bâtiment D',
@@ -55,7 +55,7 @@ l'application si les changements sont corrects)
 }
 ```
 - BIBLIOTHÈQUES UNIVERSITAIRES
-```json
+```js
 "properties": {
   type: 'upjvBU',
   name: 'Bibliothèque universitaire - Cathédrale',
