@@ -29,7 +29,9 @@
 
                 <div class="border"></div>
                 <div class="modal-actions">
-                    <button @click="showStreetView = true">360v</button>
+                    <div @click="showStreetView = true" class="btn">
+                        <div class="streetViewIcon"></div>
+                    </div>
                     <button class="button" @click="closeModal">Fermer</button>
                 </div>
             </div>

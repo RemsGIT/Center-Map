@@ -3,7 +3,19 @@ var geojson = {
     "features": [
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -34,7 +46,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment H',
+                lat: '49.8992061134774',
+                lng: '2.2991091012954716',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '....', seats: 80 }
+                ],
+                image: '',
+                gStreetViewLink: 'https://www.google.com/maps/embed?pb=!4v1672735074928!6m8!1m7!1s-MQCi0oxnc6DuIV1WU6Zgg!2m2!1d49.89901716603505!2d2.29776996400251!3f60.306609670370015!4f-0.7533862353333376!5f0.7820865974627469'
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -65,7 +89,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -96,7 +132,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment BC',
+                lat: '49.89868088901788',
+                lng: '2.2986370325088505',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -127,7 +175,18 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBU',
+                name: 'Bibliothèque universitaire - Cathédrale',
+                lat: '49.896376053567735',
+                lng: '2.3010349273681645',
+                icon: 'upjvIcon.png',
+                subjects: ['Sciences et technologie', 'Droit', 'Économie', 'Gestion', 'Science politique'],
+                address: '15 Placette Lafleur, Amiens',
+                image: '',
+                gStreetViewLink: 'https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469'
+
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -158,7 +217,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -193,7 +264,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -224,7 +307,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -311,7 +406,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -342,7 +449,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -477,7 +596,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [
@@ -596,7 +727,19 @@ var geojson = {
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                type: 'upjvBuilding',
+                name: 'UFR des sciences - bâtiment D',
+                lat: '49.898948685098155',
+                lng: '2.299693822860718',
+                icon: 'upjvIcon.png',
+                rooms: [],
+                amphitheaters: [
+                    { name: '', seats: 200 }
+                ],
+                image: '',
+                gStreetViewLink: ''
+            },
             "geometry": {
                 "coordinates": [
                     [

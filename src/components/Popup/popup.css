@@ -98,7 +98,8 @@
 }
 .modal-actions {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .modal .button {
     cursor: pointer;
@@ -136,4 +137,37 @@
 .modal-menu-list.pictures .pictures
 {
     border-bottom: 2px solid #BE8A62;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    min-width: 35px;
+    border: 1px solid black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all .3s;
+}
+
+.btn:hover{
+    background-color: black;
+}
+.btn:hover > .streetViewIcon {
+    background-color: white;
+}
+
+.btn img {
+    width: 35px;
+}
+
+.btn .streetViewIcon {
+    background-color: black;
+    -webkit-mask: url(../../assets/icons/360-degree-rotate-icon.svg) no-repeat center;
+    mask: url(../../assets/icons/360-degree-rotate-icon.svg) no-repeat center;    
+    width: 40px;
+    height: 20px;
 }

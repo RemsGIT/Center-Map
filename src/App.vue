@@ -1,5 +1,5 @@
 <template>
-    <map-item @clickOnMarker="getMarkerClick"/>
+    <map-item @clickOnMarker="getPolygonClick"/>
 
     <transition name="fade" appear>
         <pop-up :point="currentPoint" v-if="showPopUp" @stateModal="changeStateModal"/>
@@ -24,9 +24,9 @@ export default {
         }
     },
     methods: {
-        getMarkerClick(point){
+        getPolygonClick(p){
             this.changeStateModal('open')
-            this.currentPoint = point
+            this.currentPoint = p
         },
         changeStateModal(value){
             // Change l'état de la modal : ouvre ou ferme
