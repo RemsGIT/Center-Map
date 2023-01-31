@@ -134,7 +134,8 @@
 .modal-menu-list.rooms .rooms,
 .modal-menu-list.amphi .amphi,
 .modal-menu-list.subjects .subjects,
-.modal-menu-list.pictures .pictures
+.modal-menu-list.pictures .pictures,
+.modal-menu-list.cafetaria .cafetaria
 {
     border-bottom: 2px solid #BE8A62;
 }

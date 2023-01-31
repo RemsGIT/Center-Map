@@ -153,14 +153,12 @@ export default {
             id: 'mapbox/outdoors-v12',
             zoomOffset: -1,
             tileSize: 512,
-            accessToken: "pk.eyJ1IjoicmVteWNhcyIsImEiOiJjbDlvOWs4Y3UwY2xsNDFrNGRqNDIxMThvIn0.052x69fiyb0ek6wqvOjGMA",
         }).addTo(map);
         
         this.map = map
     },
     methods: {
         clickOnPolygon(layer){
-            console.log(layer)
             this.map.fitBounds(layer.getBounds())
             this.$emit('clickOnMarker', layer.feature.properties)
         },

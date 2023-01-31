@@ -22,6 +22,7 @@
                 <div class="modal-content">
                     <UpjvContent :active="active" :point="point" v-if="point.type === 'upjvBuilding'"/>
                     <BuContent :active="active" :point="point" v-if="point.type === 'upjvBU'" />
+                    <RuContent :active="active" :point="point" v-if="point.type === 'upjvRU'" />
                 </div>
 
 
@@ -45,6 +46,7 @@
 import Menu from "@/components/Popup/Menu";
 import UpjvContent from "@/components/Popup/Contents/UpjvContent";
 import BuContent from "@/components/Popup/Contents/BuContent";
+import RuContent from "@/components/Popup/Contents/RuContent";
 import GoogleStreetView from "@/components/GoogleStreetView/GoogleStreetView";
 
 export default {
@@ -53,6 +55,7 @@ export default {
         Menu,
         UpjvContent,
         BuContent,
+        RuContent,
         'street-view': GoogleStreetView
     },
     props: {
@@ -98,6 +101,12 @@ export default {
                     return {
                         general: 'Informations générales',
                         subjects: 'Matières',
+                        pictures: 'Photos'
+                    }
+                case 'upjvRU':
+                    return {
+                        general: 'Informations générales',
+                        cafetaria: 'Cafétaria',
                         pictures: 'Photos'
                     }
             }
