@@ -6,18 +6,12 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "Bibliothèque universitaire - Cathédrale",
-                    "lat": "49.896376053567735",
-                    "lng": "2.3010349273681645",
-                    "icon": "buIcon.png",
-                    "subjects": [
-                        "Sciences et technologie",
-                        "Droit",
-                        "Économie",
-                        "Gestion",
-                        "Science politique"
-                    ],
-                    "address": "15 Placette Lafleur, Amiens",
+                    "name": "UFR des sciences - bâtiment H",
+                    "lat": 49.896376053567735,
+                    "lng": 2.3010349273681645,
+                    "icon": "upjvIcon.png",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
+                    "rooms": "[]",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
                 },
@@ -53,65 +47,14 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment H",
-                    "lat": "49.8992061134774",
-                    "lng": "2.2991091012954716",
+                    "name": "UFR des sciences - bâtiment F",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "....",
-                            "seats": 80
-                        }
-                    ],
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735074928!6m8!1m7!1s-MQCi0oxnc6DuIV1WU6Zgg!2m2!1d49.89901716603505!2d2.29776996400251!3f60.306609670370015!4f-0.7533862353333376!5f0.7820865974627469"
-                },
-                "geometry": {
-                    "coordinates": [
-                        [
-                            [
-                                2.2993840078561902,
-                                49.899123876906884
-                            ],
-                            [
-                                2.2993840078561902,
-                                49.89903653728555
-                            ],
-                            [
-                                2.2997497641956954,
-                                49.89903653728555
-                            ],
-                            [
-                                2.2997497641956954,
-                                49.899123876906884
-                            ],
-                            [
-                                2.2993840078561902,
-                                49.899123876906884
-                            ]
-                        ]
-                    ],
-                    "type": "Polygon"
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment D",
-                    "lat": "49.898948685098155",
-                    "lng": "2.299693822860718",
-                    "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
-                    "image": "",
-                    "gStreetViewLink": ""
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618"
                 },
                 "geometry": {
                     "coordinates": [
@@ -190,19 +133,13 @@ var geojson =
             {
                 "type": "Feature",
                 "properties": {
-                    "type": "upjvBU",
-                    "name": "Bibliothèque universitaire - Cathédrale",
-                    "lat": "49.896376053567735",
-                    "lng": "2.3010349273681645",
+                    "type": "upjvBuilding",
+                    "name": "UFR des sciences - bâtiment B",
+                    "lat": 49.896376053567735,
+                    "lng": 2.3010349273681645,
                     "icon": "upjvIcon.png",
-                    "subjects": [
-                        "Sciences et technologie",
-                        "Droit",
-                        "Économie",
-                        "Gestion",
-                        "Science politique"
-                    ],
-                    "address": "15 Placette Lafleur, Amiens",
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
                 },
@@ -238,17 +175,12 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment D",
-                    "lat": "49.898948685098155",
-                    "lng": "2.299693822860718",
+                    "name": "UFR des sciences - bâtiment E",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
                     "gStreetViewLink": ""
                 },
@@ -268,12 +200,16 @@ var geojson =
                                 49.89862156502295
                             ],
                             [
-                                2.2998654109836707,
-                                49.898619623861464
+                                2.2995362892075377,
+                                49.89862034753688
                             ],
                             [
-                                2.299869758650516,
-                                49.89892138407265
+                                2.2995377227624374,
+                                49.898771006708444
+                            ],
+                            [
+                                2.2995407941629082,
+                                49.89892440054143
                             ],
                             [
                                 2.2992371862259517,
@@ -289,16 +225,11 @@ var geojson =
                 "properties": {
                     "type": "upjvBuilding",
                     "name": "UFR des sciences - bâtiment D",
-                    "lat": "49.898948685098155",
-                    "lng": "2.299693822860718",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
                     "gStreetViewLink": ""
                 },
@@ -334,17 +265,12 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment D",
-                    "lat": "49.898948685098155",
-                    "lng": "2.299693822860718",
+                    "name": "UFR des sciences - bâtiment BC",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
                     "gStreetViewLink": ""
                 },
@@ -436,19 +362,14 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment D",
-                    "lat": "49.898948685098155",
-                    "lng": "2.299693822860718",
+                    "name": "UFR des sciences - Bâtiment A",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
                     "image": "",
-                    "gStreetViewLink": ""
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153952833!6m8!1m7!1svSstGHJjEG7SlozL0mH0lA!2m2!1d49.89811920704861!2d2.300076419437846!3f344.4130195879347!4f7.6977223806878925!5f2.0238871321945497"
                 },
                 "geometry": {
                     "coordinates": [
@@ -756,15 +677,16 @@ var geojson =
             {
                 "type": "Feature",
                 "properties": {
-                    "type": "upjvBU",
-                    "name": "Bibliothèque universitaire - Cathédrale",
+                    "type": "upjvRU",
+                    "name": "Restaurant universitaire de la Veillère",
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
-                    "icon": "upjvIcon.png",
-                    "subjects": "[\"Sciences et technologie\",\"Droit\",\"Économie\",\"Gestion\",\"Science politique\"]",
-                    "address": "15 Placette Lafleur, Amiens",
+                    "icon": "upjvRU.png",
+                    "hours": "Lundi au vendredi de 8h à 12h",
+                    "cafetaria": "true",
                     "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
+                    "address": "18 Rue Fernel, 80000 Amiens"
                 },
                 "geometry": {
                     "coordinates": [
@@ -809,7 +731,225 @@ var geojson =
                     ],
                     "type": "Polygon"
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "UFR des sciences - bâtiment I",
+                    "lat": 49.896376053567735,
+                    "lng": 2.3010349273681645,
+                    "icon": "upjvIcon.png",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
+                    "rooms": "[]",
+                    "image": "",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                },
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                2.2985310163124666,
+                                49.89915777591705
+                            ],
+                            [
+                                2.298532235643421,
+                                49.899149999230815
+                            ],
+                            [
+                                2.2985379353377766,
+                                49.89914298043013
+                            ],
+                            [
+                                2.298581959865203,
+                                49.89910818843026
+                            ],
+                            [
+                                2.298615542041034,
+                                49.89908179192366
+                            ],
+                            [
+                                2.298660268743504,
+                                49.8990469763084
+                            ],
+                            [
+                                2.2987230070986584,
+                                49.898996780830885
+                            ],
+                            [
+                                2.298728539154183,
+                                49.89899354137444
+                            ],
+                            [
+                                2.2987360828666112,
+                                49.89899202962815
+                            ],
+                            [
+                                2.298742956027695,
+                                49.89899364935641
+                            ],
+                            [
+                                2.2987501644651047,
+                                49.898998508540984
+                            ],
+                            [
+                                2.2987582110914673,
+                                49.89900574332657
+                            ],
+                            [
+                                2.2987667606330433,
+                                49.8990115743469
+                            ],
+                            [
+                                2.2987772956360573,
+                                49.89901685550609
+                            ],
+                            [
+                                2.298802081470029,
+                                49.899022035978106
+                            ],
+                            [
+                                2.2988159954296066,
+                                49.89902279185057
+                            ],
+                            [
+                                2.298828735922598,
+                                49.89902030826883
+                            ],
+                            [
+                                2.2988426498822037,
+                                49.89902322377819
+                            ],
+                            [
+                                2.2988478131291004,
+                                49.89902541585019
+                            ],
+                            [
+                                2.298852943353097,
+                                49.89904579399962
+                            ],
+                            [
+                                2.298856741850841,
+                                49.89919742764454
+                            ],
+                            [
+                                2.2989032558848237,
+                                49.899197537796425
+                            ],
+                            [
+                                2.2989033886317145,
+                                49.89922853735803
+                            ],
+                            [
+                                2.298854407486459,
+                                49.89922852624852
+                            ],
+                            [
+                                2.2988487642389543,
+                                49.89923469474451
+                            ],
+                            [
+                                2.2988400428573357,
+                                49.89923987187419
+                            ],
+                            [
+                                2.2988289273719715,
+                                49.89924240536271
+                            ],
+                            [
+                                2.2988116556170155,
+                                49.89924416778965
+                            ],
+                            [
+                                2.298797515094037,
+                                49.8992450537487
+                            ],
+                            [
+                                2.2987815894774712,
+                                49.89924418989784
+                            ],
+                            [
+                                2.2987460502082797,
+                                49.89924019458854
+                            ],
+                            [
+                                2.298705336855562,
+                                49.89923449645417
+                            ],
+                            [
+                                2.29866879175853,
+                                49.89922704574042
+                            ],
+                            [
+                                2.2986406327075883,
+                                49.89921943824254
+                            ],
+                            [
+                                2.2986161575508106,
+                                49.899210691749516
+                            ],
+                            [
+                                2.298601405400916,
+                                49.899204752771794
+                            ],
+                            [
+                                2.2985459236049905,
+                                49.89918030657182
+                            ],
+                            [
+                                2.2985373865583085,
+                                49.89917397314275
+                            ],
+                            [
+                                2.2985310163124666,
+                                49.89915777591705
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "UFR des sciences - bâtiment G",
+                    "lat": 49.898948685098155,
+                    "lng": 2.299693822860718,
+                    "icon": "upjvIcon.png",
+                    "rooms": "[]",
+                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
+                    "image": "",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153906569!6m8!1m7!1s1W3-JqjB-n_MB92g-v65QA!2m2!1d49.89858839200684!2d2.300680906537363!3f282.47730627292214!4f0.2881182676414227!5f2.0667711820834005"
+                },
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                2.299536593116642,
+                                49.898620401529655
+                            ],
+                            [
+                                2.29986514430243,
+                                49.89861972811971
+                            ],
+                            [
+                                2.2998696498057996,
+                                49.89892175326409
+                            ],
+                            [
+                                2.2995410241337595,
+                                49.89892505787515
+                            ],
+                            [
+                                2.299536593116642,
+                                49.898620401529655
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                }
             }
         ]
-    }    
-    export default geojson
+    }
+export default geojson

@@ -8,7 +8,7 @@
            
             <!-- Modal's content -->
             <div class="modal-content">
-                <iframe :src="url" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe :src="url" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
