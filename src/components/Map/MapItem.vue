@@ -124,9 +124,9 @@ export default {
         })
         
         const layers = {
-            'BU': geoJsonBU,
-            'UPJV': geoJsonUPJV,
-            'RU': geoJsonRU
+            'Bibliothèque universitaire': geoJsonBU,
+            'Bâtiment UPJV': geoJsonUPJV,
+            'Restaurant universitiare': geoJsonRU
         };
         
         const layers2 = [geoJsonBU, geoJsonUPJV, geoJsonRU]
@@ -142,8 +142,15 @@ export default {
             console.log(e.latlng)
         })
         
-        Leaflet.control.layers(null,layers).addTo(map)
+        Leaflet.control.layers(null,layers, {collapsed: false}).addTo(map)
         
+        // Style the control
+        document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '300px'
+        document.querySelectorAll('.leaflet-control-container .leaflet-control-layers .leaflet-control-layers-overlays label').forEach(e => {
+            e.style.padding = '8px 5px'
+            e.style.cursor = 'pointer'
+        })
+
         map.fitBounds(geoJson.getBounds())
         
 
