@@ -36,7 +36,10 @@
 
         <!-- Les salles -->
         <template v-if="active === 'cafetaria'">
-            {{point.cafetaria === 'true' ? 'Oui' : "Ce restaurant universitaire ne possède pas de cafétaria."}}
+            <span v-if="point.cafetaria === 'true'">
+                <span v-html="point.cafetInfo"></span>
+            </span>
+            <span v-else>Ce restaurant universitaire ne possède pas de cafétaria.</span>
         </template>
 
         <!-- Les amphithéatres -->

@@ -7,7 +7,8 @@
             </div>
             <!-- Top image with close button -->
             <div class="modal-header">
-                <img src="https://dummyimage.com/450x175/000/fff" alt="">
+                <img v-if="point.image !== ''" :src="`images/${point.image}.png`" alt="" style="width: 100%;max-height: 200px">
+                <img v-else src="https://dummyimage.com/450x175/000/fff" alt="">
             </div>
 
             <!-- Modal's content -->

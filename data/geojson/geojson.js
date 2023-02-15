@@ -10,10 +10,10 @@ var geojson =
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
                     "icon": "upjvIcon.png",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "rooms": "[]",
-                    "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                    "amphitheaters": "[]",
+                    "rooms": "['Salle de cours/TD : de H11 à H28']",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
                 },
                 "geometry": {
                     "coordinates": [
@@ -51,9 +51,9 @@ var geojson =
                     "lat": 49.898948685098155,
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
+                    "rooms": "['Salle de cours/TD : de F08 à F010','Salles informatiques : de F102 à F106']",
+                    "amphitheaters": "[{\"name\":\"Haüy\",\"seats\":100}]",
+                    "image": "sciences_b",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618"
                 },
                 "geometry": {
@@ -88,60 +88,14 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment BC",
-                    "lat": "49.89868088901788",
-                    "lng": "2.2986370325088505",
-                    "icon": "upjvIcon.png",
-                    "rooms": [],
-                    "amphitheaters": [
-                        {
-                            "name": "",
-                            "seats": 200
-                        }
-                    ],
-                    "image": "",
-                    "gStreetViewLink": ""
-                },
-                "geometry": {
-                    "coordinates": [
-                        [
-                            [
-                                2.2989024683018044,
-                                49.899084778439345
-                            ],
-                            [
-                                2.2989022446381284,
-                                49.89899863684752
-                            ],
-                            [
-                                2.299094948378638,
-                                49.898999459617386
-                            ],
-                            [
-                                2.2990961836627832,
-                                49.89908282054333
-                            ],
-                            [
-                                2.2989024683018044,
-                                49.899084778439345
-                            ]
-                        ]
-                    ],
-                    "type": "Polygon"
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "type": "upjvBuilding",
                     "name": "UFR des sciences - bâtiment B",
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                    "rooms": "['Salle informatique : B010','Salles TP']",
+                    "amphitheaters": "[]",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
                 },
                 "geometry": {
                     "coordinates": [
@@ -180,9 +134,9 @@ var geojson =
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
                     "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
-                    "gStreetViewLink": ""
+                    "amphitheaters": "[{\"name\":\"Lavoisier\",\"seats\":100},{\"name\":\"Ehresmann\",\"seats\":100},{\"name\":\"Parmentier\",\"seats\":100}]",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
                 },
                 "geometry": {
                     "coordinates": [
@@ -228,10 +182,10 @@ var geojson =
                     "lat": 49.898948685098155,
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
-                    "gStreetViewLink": ""
+                    "rooms": "['Salles informatiques : de D01 à D15']",
+                    "amphitheaters": "[]",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
                 },
                 "geometry": {
                     "coordinates": [
@@ -269,10 +223,10 @@ var geojson =
                     "lat": 49.898948685098155,
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
-                    "gStreetViewLink": ""
+                    "rooms": "['Salles de cours/TD : de BC01 à BC42']",
+                    "amphitheaters": "[]",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485876118!6m8!1m7!1s7gjm9aYVj2vQR--a-PpNOg!2m2!1d49.89835051300443!2d2.298414004635708!3f21.83479683768934!4f7.964443232132993!5f0.7820865974627469"
                 },
                 "geometry": {
                     "coordinates": [
@@ -366,9 +320,9 @@ var geojson =
                     "lat": 49.898948685098155,
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
+                    "rooms": "['Administration']",
                     "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
+                    "image": "sciences_b",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153952833!6m8!1m7!1svSstGHJjEG7SlozL0mH0lA!2m2!1d49.89811920704861!2d2.300076419437846!3f344.4130195879347!4f7.6977223806878925!5f2.0238871321945497"
                 },
                 "geometry": {
@@ -407,10 +361,12 @@ var geojson =
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
                     "icon": "upjvIcon.png",
-                    "subjects": "[\"Sciences et technologie\",\"Droit\",\"Économie\",\"Gestion\",\"Science politique\"]",
+                    "subjects": "[\"Étage 1 : Droit – Sciences politiques – Espace détente\",\"Étage 2 : Economie – Gestion – Salles de travail en groupe\",\"Étage 3 : Sciences et Techniques – Salles de travail en groupe\"]",
                     "address": "15 Placette Lafleur, Amiens",
-                    "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                    "image": "bu_cathedrale",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
+                    "hours": "Lundi : 08:00-19:30<br>Mardi : 08:00-19:30<br>Mercredi : 08:00-19:30<br>Jeudi : 08:00-19:30<br>Vendredi : 08:00-19:30<br>Samedi : 08:00-18:00<br>Dimanche : fermé",
+                    "access": "Parking à proximité."
                 },
                 "geometry": {
                     "coordinates": [
@@ -556,7 +512,8 @@ var geojson =
                     "cafetaria": "true",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1673953462366!6m8!1m7!1sfs9D4bjJZqJnb4LsBuOCOg!2m2!1d49.89643708950496!2d2.302079271257834!3f68.28948907612309!4f-5.156225282183371!5f0.7820865974627469",
-                    "address": "Rue Vanmarcke, 80000 Amiens"
+                    "address": "Rue Vanmarcke, 80000 Amiens",
+                    "cafetInfo": "Ouverte de 11:30 à 13:30.<br><br>Elle propose un espace snacks et sandwicherie.."
                 },
                 "geometry": {
                     "coordinates": [
@@ -682,11 +639,12 @@ var geojson =
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
                     "icon": "upjvRU.png",
-                    "hours": "Lundi au vendredi de 8h à 12h",
+                    "hours": "Lundi au vendredi : de 11:30 à 13:30",
                     "cafetaria": "false",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
-                    "address": "18 Rue Fernel, 80000 Amiens"
+                    "address": "18 Rue Fernel, 80000 Amiens",
+                    "access": "Parking dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -736,14 +694,15 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "UFR des sciences - bâtiment I",
+                    "name": "UFR des sciences - Amphi baudelocque",
                     "lat": 49.896376053567735,
                     "lng": 2.3010349273681645,
                     "icon": "upjvIcon.png",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
+                    "amphitheaters": "[{\"name\":\"Baudelocque\",\"seats\":200}]",
                     "rooms": "[]",
-                    "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469"
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
+                    "role": "amphi"
                 },
                 "geometry": {
                     "coordinates": [
@@ -917,10 +876,10 @@ var geojson =
                     "lat": 49.898948685098155,
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
-                    "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153906569!6m8!1m7!1s1W3-JqjB-n_MB92g-v65QA!2m2!1d49.89858839200684!2d2.300680906537363!3f282.47730627292214!4f0.2881182676414227!5f2.0667711820834005"
+                    "rooms": "[\"Hall et accueil de l'UFR\"]",
+                    "amphitheaters": "[]",
+                    "image": "sciences_b",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485795395!6m8!1m7!1sI648GEEEUtkty0Jm-9qkRQ!2m2!1d49.8984923038064!2d2.300710874012407!3f265.41290659664!4f2.7790790352916446!5f1.036412052123486"
                 },
                 "geometry": {
                     "coordinates": [
@@ -960,7 +919,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "poulies",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453217158!6m8!1m7!1sD5Rnydb-wLb3Og9uSqXXJQ!2m2!1d49.89957721384859!2d2.299301666852913!3f341.83352105424376!4f4.160516602604105!5f0.637503099514757"
                 },
                 "geometry": {
@@ -1053,7 +1012,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Laboratoires LPMC\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -1099,14 +1058,14 @@ var geojson =
             {
                 "type": "Feature",
                 "properties": {
-                    "type": "upvBuilding",
+                    "type": "upjvBuilding",
                     "name": "Minimes - bâtiment 8",
                     "lat": 49.899517098949346,
                     "lng": " 2.3012360930442814",
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Laboratoires LPMC\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -1151,7 +1110,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Laboratoires LPCM\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -1198,13 +1157,13 @@ var geojson =
                 "type": "Feature",
                 "properties": {
                     "type": "upjvBuilding",
-                    "name": "Minimes - bâtiment ",
+                    "name": "Minimes - bâtiment 6",
                     "lat": " 49.8993512402804",
                     "lng": 2.301426529884339,
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Laboratoires\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -1265,7 +1224,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"M001 à M108\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454231333!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f33.84061052437903!4f-1.5244209430514672!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -1330,7 +1289,8 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[]",
                     "amphitheaters": "[{\"name\":\"Figlarz\", \"seats\":100},{\"name\":\"Peltier\", \"seats\":100},{\"name\":\"Méchain\", \"seats\":100},{\"name\":\"Cassini\", \"seats\":100}]",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454483199!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f48.62613452136939!4f0.247622217527109!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454483199!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f48.62613452136939!4f0.247622217527109!5f0.7820865974627469",
+                    "image": "minimes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1434,7 +1394,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Maison des langues\", \"M001 à M108\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002"
                 },
                 "geometry": {
@@ -1511,7 +1471,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"M001 à M108\", \"Salles de TP\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002"
                 },
                 "geometry": {
@@ -1610,9 +1570,9 @@ var geojson =
                     "lat": 49.89932186941504,
                     "lng": 2.302966117858887,
                     "icon": "upjvIcon.png",
-                    "rooms": "[\"Plateforme biologie, moléculaire, Serres\", \"Plateforme analytique\"]",
+                    "rooms": "[\"Plateforme biologie - moléculaire - serres\",\"Plateforme analytique\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454996960!6m8!1m7!1sgw0jI4dLphppbJqWtQbiaA!2m2!1d49.89907554695266!2d2.303453909745834!3f299.8720461927666!4f7.840861483572368!5f1.0121615343317685"
                 },
                 "geometry": {
@@ -1645,7 +1605,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Curi - bâtiment 1",
+                    "lat": 49.898556492913755,
+                    "lng": 2.297153770923615,
+                    "icon": "upjvIcon.png",
+                    "amphitheaters": "[]",
+                    "rooms": "['Salles de cours, TD et TP']",
+                    "image": "",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676477924417!6m8!1m7!1siMzDxiVo4LZnELvTAwRV2g!2m2!1d49.89840091375763!2d2.297352159584402!3f285.7095148882449!4f15.034297415197386!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1700,7 +1670,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "CURI - Bâtiment 3",
+                    "lat": 49.898445918329706,
+                    "lng": " 2.2964671254158024",
+                    "icon": "upjvIcon.png",
+                    "amphitheaters": "[]",
+                    "rooms": "['Salles de cours, TD et TP']",
+                    "image": "",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676476910234!6m8!1m7!1sz7O0qGC1LWmHFQ5kWtk2VA!2m2!1d49.89856246844496!2d2.296150402016795!3f119.34133131251622!4f6.531305937356137!5f1.0791827876466293"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1767,7 +1747,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Curi - bâtiment 2",
+                    "lat": 49.89820058006654,
+                    "lng": 2.2969606518745427,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['Salles de cours, TD et TP']",
+                    "amphitheaters": "[]",
+                    "image": "",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676478437212!6m8!1m7!1sEYKjX3K8hrOVVq-VyM1mTw!2m2!1d49.89823798307318!2d2.297357083293907!3f246.93734232208595!4f10.89253625108033!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1890,7 +1880,18 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Pôle cathédrale",
+                    "lat": 49.89611861008923,
+                    "lng": " 2.301997840404511",
+                    "icon": "upjvIcon.png",
+                    "rooms": "['UFR Droit et science politique', 'UFR Économie et de gestion', 'IAE', 'IPAG', 'Maison de l'entrepreneuriat']",
+                    "amphitheaters": "[]",
+                    "image": "eco_droit",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676482596383!6m8!1m7!1s_kMPP1l-Uy86nF1Xn11fGg!2m2!1d49.89634339876779!2d2.301474979148348!3f126.93434785561769!4f13.172857115237605!5f0.4000000000000002",
+                    "access": "Parking à proximité"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1937,7 +1938,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment H",
+                    "lat": 49.905187049256895,
+                    "lng": 2.299076914787293,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['Bureau des enseignants']",
+                    "amphitheaters": "[]",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1968,7 +1979,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment G",
+                    "lat": 49.904955565248,
+                    "lng": 2.2990822792053227,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['INSPE', 'Scolarités']",
+                    "amphitheathers": "[]",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -1999,7 +2020,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment F",
+                    "lat": 49.904718897612916,
+                    "lng": 2.2991439700126652,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['UFR Sciences Humaines Sociales et Philosophie', 'UFR Histoire et Géographie', 'UFR des langues et cultures étrangères', 'UFR des lettres', 'INSPE']",
+                    "amphitheathers": "[]",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2046,7 +2077,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment E",
+                    "lat": 49.90448913887102,
+                    "lng": 2.2990393638610844,
+                    "icon": "upjvIcon.png",
+                    "amphitheathers": "[]",
+                    "rooms": "['Maison de la recherche', 'Maison des langues', 'Espaces conférences', 'École doctorale', 'Sciences humaines et sociales']",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2193,7 +2234,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment C",
+                    "lat": " 49.90413154226114",
+                    "lng": 2.297601699829102,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['Le bâtiment C possède des amphithéâtres.']",
+                    "amphitheaters": "[{\"name\":\"Agache\", \"seats\": 100},{\"name\":\"Veil\", \"seats\": 100}, {\"name\":\"De Rouvroy\", \"seats\": 100}, {\"name\":\"Morisson\", \"seats\": 100}]",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2280,7 +2331,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment B",
+                    "lat": 49.90375839514636,
+                    "lng": 2.2981435060501103,
+                    "icon": "upjvIcon.png",
+                    "amphitheathers": "[{\"name\":\"Choderlos de Laclos\", \"seats\": 100}]",
+                    "rooms": "['Écuries', \"Pavillon d'espaces pédagogiques\"]",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2327,7 +2388,16 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment A",
+                    "lat": 49.90368756596996,
+                    "lng": 2.2991171479225163,
+                    "icon": "upjvIcon.png",
+                    "rooms": "['Accueil - Administration - Maintenance', 'Direction de la vie étudiante']",
+                    "image": "citadelle_devant",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2398,7 +2468,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBuilding",
+                    "name": "Citadelle - bâtiment D",
+                    "lat": 49.90412463215562,
+                    "lng": " 2.298229336738587",
+                    "icon": "upvIcon.png",
+                    "amphitheathers": "[]",
+                    "rooms": "['Salles de réunion']",
+                    "image": "citadelle_tour",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2445,7 +2525,18 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvRU",
+                    "name": "Cafétaria universitaire Citadelle",
+                    "lat": 49.90514558951605,
+                    "lng": " 2.298873066902161",
+                    "icon": "upjvRU.png",
+                    "hours": "Ouverte de 9h à 17h",
+                    "cafetaria": "true",
+                    "image": "citadelle_cafet",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "address": "12 Pl. D’Armes, 80000 Amiens"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2476,7 +2567,17 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "upjvBU",
+                    "name": "Bibliothèque universitaire - Citadelle",
+                    "lat": 49.90489855782164,
+                    "lng": " 2.299076914787293",
+                    "icon": "buIcon.png",
+                    "subjects": "[\"Arts\",\"Lettres\",\"Langues\", \"Sciences humaines sociales\"]",
+                    "address": "10 rue des Français libres 80080 Amiens",
+                    "image": "citadelle_bu",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2515,7 +2616,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Laboratoires LRCS\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002"
                 },
                 "geometry": {
@@ -2619,7 +2720,7 @@ var geojson =
                     "lng": " 2.3007103800773625",
                     "rooms": "[\"Plateforme microscopie\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002"
                 },
                 "geometry": {
@@ -2708,7 +2809,7 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "[\"Animalerie\"]",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "minimes_12",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676455131578!6m8!1m7!1s_ywvYhuZlTDT887l138OPA!2m2!1d49.89943377592482!2d2.301735591633991!3f18.521103517758405!4f3.2226526945700584!5f0.7820865974627469"
                 },
                 "geometry": {
@@ -2781,7 +2882,12 @@ var geojson =
             },
             {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "type": "crous",
+                    "name": "Crous",
+                    "address": "25 Rue St Leu, 80000 Amiens",
+                    "hours": "Lundi au vendredi : 09:00–12:30 à 13:30–16:30"
+                },
                 "geometry": {
                     "coordinates": [
                         [
@@ -2817,8 +2923,112 @@ var geojson =
                     ],
                     "type": "Polygon"
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "type": "upjvBuilding",
+                    "role": "campus",
+                    "name": "Campus universitaire",
+                    "rooms": "['IUT', 'UFR lettres', 'UFR Histoire géographie', 'UFR langues et cultures étrangères','UFR Sciences humaines, sociales et philosophie']",
+                    "amphitheaters": "[]",
+                    "image": "",
+                    "gStreetView": "https://www.google.com/maps/embed?pb=!4v1676483113151!6m8!1m7!1s9i4xbVornMkXIJB-XHEfZg!2m2!1d49.87034314510747!2d2.263746702567654!3f0.13573744121471343!4f1.849910930280359!5f0.7820865974627469",
+                    "lat": 49.87306580573959,
+                    "lng": 2.2654795646667485
+                },
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                2.2622980454990795,
+                                49.870816609947354
+                            ],
+                            [
+                                2.267384928504896,
+                                49.86991843712937
+                            ],
+                            [
+                                2.2713569483190668,
+                                49.87393986691387
+                            ],
+                            [
+                                2.2713546879564035,
+                                49.874571798643245
+                            ],
+                            [
+                                2.266190089802791,
+                                49.87451789751762
+                            ],
+                            [
+                                2.265019168764553,
+                                49.8740462601034
+                            ],
+                            [
+                                2.2641409779848516,
+                                49.87489520413283
+                            ],
+                            [
+                                2.2674722158677127,
+                                49.87658696715272
+                            ],
+                            [
+                                2.2640769969911787,
+                                49.87776657109433
+                            ],
+                            [
+                                2.2631720509650677,
+                                49.87687567823943
+                            ],
+                            [
+                                2.26254248097149,
+                                49.87711351072366
+                            ],
+                            [
+                                2.261381032879143,
+                                49.87673577623099
+                            ],
+                            [
+                                2.2621082947687796,
+                                49.875833398537395
+                            ],
+                            [
+                                2.2618829856013747,
+                                49.8755767630451
+                            ],
+                            [
+                                2.261904694910612,
+                                49.874765303926154
+                            ],
+                            [
+                                2.2627498413216927,
+                                49.87407574091432
+                            ],
+                            [
+                                2.2618886431615977,
+                                49.873583557342016
+                            ],
+                            [
+                                2.262768583717218,
+                                49.8727842086837
+                            ],
+                            [
+                                2.2638328927705516,
+                                49.87304345834676
+                            ],
+                            [
+                                2.2628496860945972,
+                                49.87186701481659
+                            ],
+                            [
+                                2.2622980454990795,
+                                49.870816609947354
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                }
             }
         ]
     }
 export default geojson
-

@@ -21,29 +21,7 @@ export default {
         let map;
         
         // Geojson
-        const geoJson =  Leaflet.geoJSON(geojson, {
-            onEachFeature: (feature,layer) => {
-                layer.setStyle({
-                    color: 'blue',
-                    colorFill: 'blue'
-                })
-
-                layer.on('click', () => this.clickOnPolygon(layer))
-
-                layer.on('mouseover', () => {
-                    layer.setStyle({
-                        color: 'red',
-                        colorFill: 'red'
-                    })
-                })
-                layer.on('mouseout', () => {
-                    layer.setStyle({
-                        color: 'blue',
-                        colorFill: 'blue'
-                    })
-                })
-            }
-        });
+        
         const geoJsonBU = Leaflet.geoJSON(geojson, {
             filter: (feature) => {
                 return feature.properties.type === "upjvBU"
@@ -133,10 +111,10 @@ export default {
         const options = {
             zoomControl: false,
             attributionControl: false,
-            layers: layers2
+            layers: layers2,
         } 
 
-        map = Leaflet.map('app-map', options).setView([0,0], 17)
+        map = Leaflet.map('app-map', options).setView([49.89863424051644, 2.2990098595619206], 17)
             //.setView([49.89894695738625, 2.2990339994430546], 17);
         map.on('click', (e) => {
             console.log(e.latlng)
@@ -151,7 +129,7 @@ export default {
             e.style.cursor = 'pointer'
         })
 
-        map.fitBounds(geoJson.getBounds())
+        //map.fitBounds(geoJson.getBounds())
         
 
         // Génération du fond de carte

@@ -16,7 +16,7 @@
             <div class="content-group">
                 <i class="fa-regular fa-clock"></i> Horaires
                 <hr>
-                <template v-if="point.hours">{{point.hours}}</template>
+                <span v-if="point.hours" v-html="point.hours"></span>
                 <p class="content-group-text" v-else>
                     Les horaires ne sont pas renseignées.
                 </p>
@@ -36,7 +36,11 @@
 
         <!-- Les salles -->
         <template v-if="active === 'subjects'">
-            <p v-html="point.subjects.join('<br>')"></p>
+            <ul>
+                <li v-for="(element, key) in getSubjects(point.subjects)" :key="key">
+                    {{getName(element)}}
+                </li>
+            </ul>
         </template>
 
         <!-- Les amphithéatres -->
@@ -50,7 +54,15 @@
 <script>
 export default {
     name: "BuContent",
-    props: ['active', 'point']
+    props: ['active', 'point'],
+    methods: {
+        getSubjects(value) {
+            return value.replace(/\[|\]/g,'').split(',')
+        },
+        getName(value){
+            return value.substring(1, value.length - 1)
+        },
+    }
 }
 </script>
 
