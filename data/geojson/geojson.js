@@ -510,7 +510,7 @@ var geojson =
                     "icon": "upjvRu.png",
                     "hours": "Lundi au vendredi de 8h à 20h",
                     "cafetaria": "true",
-                    "image": "",
+                    "image": "ru_stleu",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1673953462366!6m8!1m7!1sfs9D4bjJZqJnb4LsBuOCOg!2m2!1d49.89643708950496!2d2.302079271257834!3f68.28948907612309!4f-5.156225282183371!5f0.7820865974627469",
                     "address": "Rue Vanmarcke, 80000 Amiens",
                     "cafetInfo": "Ouverte de 11:30 à 13:30.<br><br>Elle propose un espace snacks et sandwicherie.."
@@ -701,7 +701,7 @@ var geojson =
                     "amphitheaters": "[{\"name\":\"Baudelocque\",\"seats\":200}]",
                     "rooms": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618",
                     "role": "amphi"
                 },
                 "geometry": {
