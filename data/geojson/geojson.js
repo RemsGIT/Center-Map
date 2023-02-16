@@ -147,7 +147,8 @@ var geojson =
                     "image": "sciences_b",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469",
                     "address": "33 Rue St Leu, 80000 Amiens",
-                    "access": "Stationnement dans les rues adjacentes"
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
