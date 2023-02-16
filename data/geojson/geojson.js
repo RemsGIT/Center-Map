@@ -2010,7 +2010,10 @@ var geojson =
                     "rooms": "['Bureau des enseignants']",
                     "amphitheaters": "[]",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2051,7 +2054,10 @@ var geojson =
                     "rooms": "['INSPE', 'Scolarités']",
                     "amphitheathers": "[]",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2092,7 +2098,10 @@ var geojson =
                     "rooms": "['UFR Sciences Humaines Sociales et Philosophie', 'UFR Histoire et Géographie', 'UFR des langues et cultures étrangères', 'UFR des lettres', 'INSPE']",
                     "amphitheathers": "[]",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30",
+                    "address": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2149,7 +2158,10 @@ var geojson =
                     "amphitheathers": "[]",
                     "rooms": "['Maison de la recherche', 'Maison des langues', 'Espaces conférences', 'École doctorale', 'Sciences humaines et sociales']",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2306,7 +2318,10 @@ var geojson =
                     "rooms": "['Le bâtiment C possède des amphithéâtres.']",
                     "amphitheaters": "[{\"name\":\"Agache\", \"seats\": 100},{\"name\":\"Veil\", \"seats\": 100}, {\"name\":\"De Rouvroy\", \"seats\": 100}, {\"name\":\"Morisson\", \"seats\": 100}]",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2403,7 +2418,10 @@ var geojson =
                     "amphitheathers": "[{\"name\":\"Choderlos de Laclos\", \"seats\": 100}]",
                     "rooms": "['Écuries', \"Pavillon d'espaces pédagogiques\"]",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2459,7 +2477,10 @@ var geojson =
                     "icon": "upjvIcon.png",
                     "rooms": "['Accueil - Administration - Maintenance', 'Direction de la vie étudiante']",
                     "image": "citadelle_devant",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2540,7 +2561,10 @@ var geojson =
                     "amphitheathers": "[]",
                     "rooms": "['Salles de réunion']",
                     "image": "citadelle_tour",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "hours": "Lundi au vendredi : 08:30 à 18:30",
+                    "address": "Lundi au vendredi : 08:30 à 18:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2598,7 +2622,9 @@ var geojson =
                     "cafetaria": "true",
                     "image": "citadelle_cafet",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
-                    "address": "12 Pl. D’Armes, 80000 Amiens"
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
+                    "access": "Stationnement dans les rues proches",
+                    "cafetInfo": "Sandwich<br>Snaking<br>Pizza"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2637,9 +2663,11 @@ var geojson =
                     "lng": " 2.299076914787293",
                     "icon": "buIcon.png",
                     "subjects": "[\"Arts\",\"Lettres\",\"Langues\", \"Sciences humaines sociales\"]",
-                    "address": "10 rue des Français libres 80080 Amiens",
+                    "address": "10 Rue des Français Libres, 80080 Amiens",
                     "image": "citadelle_bu",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues proches.",
+                    "hours": "Lundi au jeudi : 08:30 à 20:00<br>Vendredi : 08:30 à 19:30"
                 },
                 "geometry": {
                     "coordinates": [
