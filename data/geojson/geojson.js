@@ -3009,7 +3009,7 @@ var geojson =
                     "rooms": "['IUT', 'UFR lettres', 'UFR Histoire géographie', 'UFR langues et cultures étrangères','UFR Sciences humaines, sociales et philosophie']",
                     "amphitheaters": "[]",
                     "image": "salouel_campus",
-                    "gStreetView": "https://www.google.com/maps/embed?pb=!4v1676483113151!6m8!1m7!1s9i4xbVornMkXIJB-XHEfZg!2m2!1d49.87034314510747!2d2.263746702567654!3f0.13573744121471343!4f1.849910930280359!5f0.7820865974627469",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676546208087!6m8!1m7!1sey7lEzcj3mg5scJNzCyg8w!2m2!1d49.87532361465604!2d2.263430542167102!3f327.4784830447937!4f1.2138162408848387!5f0.7820865974627469",
                     "lat": 49.87306580573959,
                     "lng": 2.2654795646667485,
                     "access": "Parkings gratuits disponibles",
