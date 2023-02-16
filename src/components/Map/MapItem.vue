@@ -100,14 +100,41 @@ export default {
                 })
             }
         })
+        const geoJsonCROUS = Leaflet.geoJSON(geojson, {
+            filter: (feature) => {
+                return feature.properties.type === "crous"
+            },
+            onEachFeature: (feature,layer) => {
+                layer.setStyle({
+                    color: 'red',
+                    colorFill: 'red'
+                })
+
+                layer.on('click', () => this.clickOnPolygon(layer))
+
+                layer.on('mouseover', () => {
+                    layer.setStyle({
+                        color: 'red',
+                        colorFill: 'red'
+                    })
+                })
+                layer.on('mouseout', () => {
+                    layer.setStyle({
+                        color: 'red',
+                        colorFill: 'red'
+                    })
+                })
+            }
+        })
         
         const layers = {
             'Bibliothèque universitaire': geoJsonBU,
             'Bâtiment UPJV': geoJsonUPJV,
-            'Restaurant universitiare': geoJsonRU
+            'Restaurant universitiare': geoJsonRU,
+            'Crous': geoJsonCROUS
         };
         
-        const layers2 = [geoJsonBU, geoJsonUPJV, geoJsonRU]
+        const layers2 = [geoJsonBU, geoJsonUPJV, geoJsonRU, geoJsonCROUS]
         const options = {
             zoomControl: false,
             attributionControl: false,
@@ -120,15 +147,15 @@ export default {
             console.log(e.latlng)
         })
         
-        Leaflet.control.layers(null,layers, {collapsed: false}).addTo(map)
+        const controlLayer = Leaflet.control.layers(null,layers, {collapsed: false}).addTo(map)
+        this.resizeControlLayer(controlLayer)
+        this.responsiveControlLayer(controlLayer)
         
         // Style the control
-        document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '300px'
         document.querySelectorAll('.leaflet-control-container .leaflet-control-layers .leaflet-control-layers-overlays label').forEach(e => {
             e.style.padding = '8px 5px'
             e.style.cursor = 'pointer'
         })
-
         //map.fitBounds(geoJson.getBounds())
         
 
@@ -147,11 +174,33 @@ export default {
             this.map.fitBounds(layer.getBounds())
             this.$emit('clickOnMarker', layer.feature.properties)
         },
+        responsiveControlLayer(controlButton){
+            window.addEventListener("resize", () => this.resizeControlLayer(controlButton))
+        },
+        resizeControlLayer(controlButton){
+            const width = window.innerWidth
+
+            if(width <= 800) {
+                controlButton.collapse();
+                document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '0'
+
+                document.querySelector('.leaflet-control-layers').addEventListener('mouseleave', () => {
+                    controlButton.collapse();
+                });
+                document.querySelector('.leaflet-control-layers-toggle').addEventListener('mouseenter', () => {
+                    controlButton.expand();
+                });
+            }
+            else {
+                controlButton.expand();
+                document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '300px'
+            }
+        }
     }
 }
 </script>
 
-<style scoped src="./map.css">
+<style src="./map.css">
 .text-labels {
     font-size: 2em;
     font-weight: 700;

@@ -13,7 +13,10 @@ var geojson =
                     "amphitheaters": "[]",
                     "rooms": "['Salle de cours/TD : de H11 à H28']",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -54,7 +57,10 @@ var geojson =
                     "rooms": "['Salle de cours/TD : de F08 à F010','Salles informatiques : de F102 à F106']",
                     "amphitheaters": "[{\"name\":\"Haüy\",\"seats\":100}]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -95,7 +101,10 @@ var geojson =
                     "rooms": "['Salle informatique : B010','Salles TP']",
                     "amphitheaters": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676538167897!6m8!1m7!1sXkKay_5pLuSkydbncWdIRg!2m2!1d49.89816543985467!2d2.299649019947122!3f341.545093485138!4f7.046731929459355!5f0.7820865974627469",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -136,7 +145,9 @@ var geojson =
                     "rooms": "[]",
                     "amphitheaters": "[{\"name\":\"Lavoisier\",\"seats\":100},{\"name\":\"Ehresmann\",\"seats\":100},{\"name\":\"Parmentier\",\"seats\":100}]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -185,7 +196,10 @@ var geojson =
                     "rooms": "['Salles informatiques : de D01 à D15']",
                     "amphitheaters": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485848073!6m8!1m7!1sq7abHob1b8jmG7kfkHGqzA!2m2!1d49.89823489978793!2d2.299012060472759!3f3.482656771780757!4f-1.7825220013044003!5f0.7820865974627469",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -226,7 +240,10 @@ var geojson =
                     "rooms": "['Salles de cours/TD : de BC01 à BC42']",
                     "amphitheaters": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485876118!6m8!1m7!1s7gjm9aYVj2vQR--a-PpNOg!2m2!1d49.89835051300443!2d2.298414004635708!3f21.83479683768934!4f7.964443232132993!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485876118!6m8!1m7!1s7gjm9aYVj2vQR--a-PpNOg!2m2!1d49.89835051300443!2d2.298414004635708!3f21.83479683768934!4f7.964443232132993!5f0.7820865974627469",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": ""
                 },
                 "geometry": {
                     "coordinates": [
@@ -321,9 +338,12 @@ var geojson =
                     "lng": 2.299693822860718,
                     "icon": "upjvIcon.png",
                     "rooms": "['Administration']",
-                    "amphitheaters": "[{\"name\":\"\",\"seats\":200}]",
+                    "amphitheaters": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153952833!6m8!1m7!1svSstGHJjEG7SlozL0mH0lA!2m2!1d49.89811920704861!2d2.300076419437846!3f344.4130195879347!4f7.6977223806878925!5f2.0238871321945497"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675153952833!6m8!1m7!1svSstGHJjEG7SlozL0mH0lA!2m2!1d49.89811920704861!2d2.300076419437846!3f344.4130195879347!4f7.6977223806878925!5f2.0238871321945497",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -366,7 +386,7 @@ var geojson =
                     "image": "bu_cathedrale",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
                     "hours": "Lundi : 08:00-19:30<br>Mardi : 08:00-19:30<br>Mercredi : 08:00-19:30<br>Jeudi : 08:00-19:30<br>Vendredi : 08:00-19:30<br>Samedi : 08:00-18:00<br>Dimanche : fermé",
-                    "access": "Parking à proximité."
+                    "access": "Stationnement dans les rues adjacentes ou souterrain à proximité"
                 },
                 "geometry": {
                     "coordinates": [
@@ -513,7 +533,8 @@ var geojson =
                     "image": "ru_stleu",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1673953462366!6m8!1m7!1sfs9D4bjJZqJnb4LsBuOCOg!2m2!1d49.89643708950496!2d2.302079271257834!3f68.28948907612309!4f-5.156225282183371!5f0.7820865974627469",
                     "address": "Rue Vanmarcke, 80000 Amiens",
-                    "cafetInfo": "Ouverte de 11:30 à 13:30.<br><br>Elle propose un espace snacks et sandwicherie.."
+                    "cafetInfo": "Ouverte de 11:30 à 13:30.<br><br>Elle propose un espace snacks et sandwicherie.",
+                    "access": "Stationnement dans les rues adjacentes ou parking souterrain à proximité"
                 },
                 "geometry": {
                     "coordinates": [
@@ -641,10 +662,10 @@ var geojson =
                     "icon": "upjvRU.png",
                     "hours": "Lundi au vendredi : de 11:30 à 13:30",
                     "cafetaria": "false",
-                    "image": "",
+                    "image": "ru_veillere",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1672735378786!6m8!1m7!1s_OfSCOJY6cdEc3e2gc_d8g!2m2!1d49.89636454134919!2d2.301485488341018!3f231.2695643022339!4f6.020811561334483!5f0.7820865974627469",
                     "address": "18 Rue Fernel, 80000 Amiens",
-                    "access": "Parking dans les rues adjacentes"
+                    "access": "Stationnement dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -702,7 +723,10 @@ var geojson =
                     "rooms": "[]",
                     "image": "sciences_b",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1675152488559!6m8!1m7!1svs4dve61fas-vl41V4qSog!2m2!1d49.8991703358285!2d2.297748541073903!3f88.92204950555927!4f3.8424997421125227!5f0.6737660136123618",
-                    "role": "amphi"
+                    "role": "amphi",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -879,7 +903,10 @@ var geojson =
                     "rooms": "[\"Hall et accueil de l'UFR\"]",
                     "amphitheaters": "[]",
                     "image": "sciences_b",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485795395!6m8!1m7!1sI648GEEEUtkty0Jm-9qkRQ!2m2!1d49.8984923038064!2d2.300710874012407!3f265.41290659664!4f2.7790790352916446!5f1.036412052123486"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676485795395!6m8!1m7!1sI648GEEEUtkty0Jm-9qkRQ!2m2!1d49.8984923038064!2d2.300710874012407!3f265.41290659664!4f2.7790790352916446!5f1.036412052123486",
+                    "address": "33 Rue St Leu, 80000 Amiens",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -917,10 +944,13 @@ var geojson =
                     "lat": " 49.899943836862235",
                     "lng": 2.299401462078095,
                     "icon": "upjvIcon.png",
-                    "rooms": "[]",
+                    "rooms": "['Laboratoires']",
                     "amphitheaters": "[]",
                     "image": "poulies",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453217158!6m8!1m7!1sD5Rnydb-wLb3Og9uSqXXJQ!2m2!1d49.89957721384859!2d2.299301666852913!3f341.83352105424376!4f4.160516602604105!5f0.637503099514757"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453217158!6m8!1m7!1sD5Rnydb-wLb3Og9uSqXXJQ!2m2!1d49.89957721384859!2d2.299301666852913!3f341.83352105424376!4f4.160516602604105!5f0.637503099514757",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Impasse des Poulies, 80000 Amiens",
+                    "hours": "Laboratoires ouverts du lundi au vendredi de 08:00 à 18:00"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1013,7 +1043,10 @@ var geojson =
                     "rooms": "[\"Laboratoires LPMC\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1066,7 +1099,10 @@ var geojson =
                     "rooms": "[\"Laboratoires LPMC\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453675517!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f88.00850816950366!4f0.6325136029603158!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1111,7 +1147,10 @@ var geojson =
                     "rooms": "[\"Laboratoires LPCM\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1164,7 +1203,10 @@ var geojson =
                     "rooms": "[\"Laboratoires\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453897089!6m8!1m7!1ss13Gh9bARd_HjYC5tFZ3iA!2m2!1d49.89955336879625!2d2.300846471891719!3f90.3500710210215!4f-1.0751636178343063!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1225,7 +1267,10 @@ var geojson =
                     "rooms": "[\"M001 à M108\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454231333!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f33.84061052437903!4f-1.5244209430514672!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454231333!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f33.84061052437903!4f-1.5244209430514672!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1290,7 +1335,10 @@ var geojson =
                     "rooms": "[]",
                     "amphitheaters": "[{\"name\":\"Figlarz\", \"seats\":100},{\"name\":\"Peltier\", \"seats\":100},{\"name\":\"Méchain\", \"seats\":100},{\"name\":\"Cassini\", \"seats\":100}]",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454483199!6m8!1m7!1sW8fNocY5_P6d4SwhTpXYaA!2m2!1d49.8986624202481!2d2.301563692495531!3f48.62613452136939!4f0.247622217527109!5f0.7820865974627469",
-                    "image": "minimes"
+                    "image": "minimes",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1395,7 +1443,10 @@ var geojson =
                     "rooms": "[\"Maison des langues\", \"M001 à M108\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1472,7 +1523,10 @@ var geojson =
                     "rooms": "[\"M001 à M108\", \"Salles de TP\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454611984!6m8!1m7!1sulBjDg3OgtKdiFVxxcOFpg!2m2!1d49.89868653474907!2d2.302304786678286!3f0.8247177085116797!4f5.893064219959967!5f0.4000000000000002",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1573,7 +1627,10 @@ var geojson =
                     "rooms": "[\"Plateforme biologie - moléculaire - serres\",\"Plateforme analytique\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454996960!6m8!1m7!1sgw0jI4dLphppbJqWtQbiaA!2m2!1d49.89907554695266!2d2.303453909745834!3f299.8720461927666!4f7.840861483572368!5f1.0121615343317685"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676454996960!6m8!1m7!1sgw0jI4dLphppbJqWtQbiaA!2m2!1d49.89907554695266!2d2.303453909745834!3f299.8720461927666!4f7.840861483572368!5f1.0121615343317685",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1614,7 +1671,8 @@ var geojson =
                     "amphitheaters": "[]",
                     "rooms": "['Salles de cours, TD et TP']",
                     "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676477924417!6m8!1m7!1siMzDxiVo4LZnELvTAwRV2g!2m2!1d49.89840091375763!2d2.297352159584402!3f285.7095148882449!4f15.034297415197386!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676477924417!6m8!1m7!1siMzDxiVo4LZnELvTAwRV2g!2m2!1d49.89840091375763!2d2.297352159584402!3f285.7095148882449!4f15.034297415197386!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1679,7 +1737,8 @@ var geojson =
                     "amphitheaters": "[]",
                     "rooms": "['Salles de cours, TD et TP']",
                     "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676476910234!6m8!1m7!1sz7O0qGC1LWmHFQ5kWtk2VA!2m2!1d49.89856246844496!2d2.296150402016795!3f119.34133131251622!4f6.531305937356137!5f1.0791827876466293"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676476910234!6m8!1m7!1sz7O0qGC1LWmHFQ5kWtk2VA!2m2!1d49.89856246844496!2d2.296150402016795!3f119.34133131251622!4f6.531305937356137!5f1.0791827876466293",
+                    "access": "Stationnement dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1756,7 +1815,8 @@ var geojson =
                     "rooms": "['Salles de cours, TD et TP']",
                     "amphitheaters": "[]",
                     "image": "",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676478437212!6m8!1m7!1sEYKjX3K8hrOVVq-VyM1mTw!2m2!1d49.89823798307318!2d2.297357083293907!3f246.93734232208595!4f10.89253625108033!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676478437212!6m8!1m7!1sEYKjX3K8hrOVVq-VyM1mTw!2m2!1d49.89823798307318!2d2.297357083293907!3f246.93734232208595!4f10.89253625108033!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1886,11 +1946,13 @@ var geojson =
                     "lat": 49.89611861008923,
                     "lng": " 2.301997840404511",
                     "icon": "upjvIcon.png",
-                    "rooms": "['UFR Droit et science politique', 'UFR Économie et de gestion', 'IAE', 'IPAG', 'Maison de l'entrepreneuriat']",
+                    "rooms": "['UFR Droit et science politique','UFR Économie et de gestion','IAE','IPAG','Maison de l'entrepreneuriat']",
                     "amphitheaters": "[]",
                     "image": "eco_droit",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676482596383!6m8!1m7!1s_kMPP1l-Uy86nF1Xn11fGg!2m2!1d49.89634339876779!2d2.301474979148348!3f126.93434785561769!4f13.172857115237605!5f0.4000000000000002",
-                    "access": "Parking à proximité"
+                    "access": "Stationnement dans les rues adjacentes ou parking souterrain à proximité",
+                    "hours": "Ouvert du lundi au samedi de 07:00 à 20:00",
+                    "address": "10 Placette Lafleur, 80000 Amiens"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2617,7 +2679,10 @@ var geojson =
                     "rooms": "[\"Laboratoires LRCS\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2721,7 +2786,10 @@ var geojson =
                     "rooms": "[\"Plateforme microscopie\"]",
                     "amphitheaters": "[]",
                     "image": "minimes",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676453390624!6m8!1m7!1skS_oQqjWFYUR5zR82SH22g!2m2!1d49.89966310684982!2d2.300399642270691!3f51.68685137295802!4f8.131059217835698!5f0.4000000000000002",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2810,7 +2878,10 @@ var geojson =
                     "rooms": "[\"Animalerie\"]",
                     "amphitheaters": "[]",
                     "image": "minimes_12",
-                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676455131578!6m8!1m7!1s_ywvYhuZlTDT887l138OPA!2m2!1d49.89943377592482!2d2.301735591633991!3f18.521103517758405!4f3.2226526945700584!5f0.7820865974627469"
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676455131578!6m8!1m7!1s_ywvYhuZlTDT887l138OPA!2m2!1d49.89943377592482!2d2.301735591633991!3f18.521103517758405!4f3.2226526945700584!5f0.7820865974627469",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "Rue Edmond Fontaine, 80000 Amiens",
+                    "hours": "Scolarité ouverte de 09:00 à 17:30"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2886,7 +2957,11 @@ var geojson =
                     "type": "crous",
                     "name": "Crous",
                     "address": "25 Rue St Leu, 80000 Amiens",
-                    "hours": "Lundi au vendredi : 09:00–12:30 à 13:30–16:30"
+                    "hours": "Lundi au vendredi : 09:00–12:30 à 13:30–16:30",
+                    "access": "Stationnement dans les rues adjacentes",
+                    "image": "crous_stleu",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676540695902!6m8!1m7!1sjNasRVq0hMeIGo8P-Yy6Rg!2m2!1d49.89793878845229!2d2.300775240982146!3f263.42807154581544!4f-1.4069544867343922!5f0.7820865974627469",
+                    "icon": "crousIcon.png"
                 },
                 "geometry": {
                     "coordinates": [
@@ -2932,17 +3007,20 @@ var geojson =
                     "name": "Campus universitaire",
                     "rooms": "['IUT', 'UFR lettres', 'UFR Histoire géographie', 'UFR langues et cultures étrangères','UFR Sciences humaines, sociales et philosophie']",
                     "amphitheaters": "[]",
-                    "image": "",
+                    "image": "salouel_campus",
                     "gStreetView": "https://www.google.com/maps/embed?pb=!4v1676483113151!6m8!1m7!1s9i4xbVornMkXIJB-XHEfZg!2m2!1d49.87034314510747!2d2.263746702567654!3f0.13573744121471343!4f1.849910930280359!5f0.7820865974627469",
                     "lat": 49.87306580573959,
-                    "lng": 2.2654795646667485
+                    "lng": 2.2654795646667485,
+                    "access": "Parkings gratuits disponibles",
+                    "hours": "Bâtiments ouverts de 09:00 à 20:00",
+                    "address": "30 Chemin du Thil, 80000 Amiens"
                 },
                 "geometry": {
                     "coordinates": [
                         [
                             [
-                                2.2622980454990795,
-                                49.870816609947354
+                                2.2657622900968306,
+                                49.873252746052714
                             ],
                             [
                                 2.267384928504896,
@@ -2967,6 +3045,38 @@ var geojson =
                             [
                                 2.2641409779848516,
                                 49.87489520413283
+                            ],
+                            [
+                                2.263387544417199,
+                                49.876045661410956
+                            ],
+                            [
+                                2.2645330851601635,
+                                49.87622306712417
+                            ],
+                            [
+                                2.2647462374975844,
+                                49.875775354025784
+                            ],
+                            [
+                                2.264597849262188,
+                                49.8755474886848
+                            ],
+                            [
+                                2.263784066122205,
+                                49.875455882035
+                            ],
+                            [
+                                2.264143356594364,
+                                49.87488793441992
+                            ],
+                            [
+                                2.264900640279551,
+                                49.87544212519071
+                            ],
+                            [
+                                2.265317944551704,
+                                49.876328336905004
                             ],
                             [
                                 2.2674722158677127,
@@ -3017,12 +3127,151 @@ var geojson =
                                 49.87304345834676
                             ],
                             [
-                                2.2628496860945972,
-                                49.87186701481659
+                                2.2631650260416762,
+                                49.87220102097865
                             ],
                             [
-                                2.2622980454990795,
-                                49.870816609947354
+                                2.2623156923500645,
+                                49.87088895072661
+                            ],
+                            [
+                                2.2654881859375458,
+                                49.870180145721726
+                            ],
+                            [
+                                2.267382210838798,
+                                49.869933729334136
+                            ],
+                            [
+                                2.2659622537202315,
+                                49.872856306005076
+                            ],
+                            [
+                                2.264744186631228,
+                                49.87295036915427
+                            ],
+                            [
+                                2.2646413986689424,
+                                49.87340635975849
+                            ],
+                            [
+                                2.2657622900968306,
+                                49.873252746052714
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "type": "upjvRU",
+                    "name": "Restaurant universitaire du Bailly",
+                    "lat": " 49.87313322259364",
+                    "lng": 2.2651496529579167,
+                    "icon": "upjvRu.png",
+                    "hours": "Ouvert de 11h à 13h45 du lundi au vendredi et de 18h30 à 20h15 du lundi au jeudi<br><br>Snack et sandwicherie : ouvert de 8h à 14h ",
+                    "cafetaria": "true",
+                    "image": "ru_bailly",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676538934183!6m8!1m7!1s_-5pvhQc87EdIfzIMQkNkQ!2m2!1d49.87325607281212!2d2.264123908596479!3f100.41878916566573!4f2.449033184257587!5f2.380702052761204",
+                    "cafetInfo": "Ouverte de 8:00 à 14:00.<br><br>Elle propose des snacks/sandwicheries mais d'autre types de nourritures comme : pâtes, hamburgers...",
+                    "access": "Parkings gratuits disponibles à proximité",
+                    "address": "Avenue des Facultés 80480 SALOUEL"
+                },
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                2.264936844592256,
+                                49.873350346256075
+                            ],
+                            [
+                                2.264790424467975,
+                                49.87301166611908
+                            ],
+                            [
+                                2.2654884272514835,
+                                49.872899203105646
+                            ],
+                            [
+                                2.2655345596197094,
+                                49.873028470914704
+                            ],
+                            [
+                                2.2653801164747165,
+                                49.87305432443486
+                            ],
+                            [
+                                2.2654603466801575,
+                                49.87326503010976
+                            ],
+                            [
+                                2.264936844592256,
+                                49.873350346256075
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "type": "upjvBU",
+                    "name": "Bibliothèque universitaire - Campus santé",
+                    "lat": 49.87578314899351,
+                    "lng": " 2.264020442962647",
+                    "icon": "buIcon.png",
+                    "subjects": "['Santé','Psychologie','STAPS']",
+                    "address": "1 Chemin du Thil 80025 AMIENS",
+                    "image": "bu_sante",
+                    "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676539729928!6m8!1m7!1s-7y4H8HJtbNOWGAmJUNsAg!2m2!1d49.87538336792445!2d2.264448584569137!3f334.8709753900292!4f-0.38167216927355696!5f0.7820865974627469",
+                    "hours": "Lundi au jeudi : 08:30 à 20:00<br>Vendredi : 08:30 à 19:30 ",
+                    "access": "Parkings gratuits disponibles à proximité"
+                },
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                2.263634380531613,
+                                49.87569712192442
+                            ],
+                            [
+                                2.2638623174886447,
+                                49.87549776601978
+                            ],
+                            [
+                                2.264564735456247,
+                                49.87556971411021
+                            ],
+                            [
+                                2.264690333370993,
+                                49.87576757080686
+                            ],
+                            [
+                                2.2646438156240265,
+                                49.87593394967382
+                            ],
+                            [
+                                2.2644507669778022,
+                                49.87612281147713
+                            ],
+                            [
+                                2.2641577051771264,
+                                49.8761123191743
+                            ],
+                            [
+                                2.263715786588307,
+                                49.87605536091783
+                            ],
+                            [
+                                2.2636367064195326,
+                                49.875844015222356
+                            ],
+                            [
+                                2.263634380531613,
+                                49.87569712192442
                             ]
                         ]
                     ],

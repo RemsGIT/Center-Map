@@ -16,7 +16,9 @@
             <div class="content-group">
                 <i class="fa-regular fa-clock"></i> Horaires
                 <hr>
-                <template v-if="point.hours">{{point.hours}}</template>
+                <template v-if="point.hours">
+                    <span  v-html="point.hours"></span>
+                </template>
                 <p class="content-group-text" v-else>
                     Les horaires ne sont pas renseignées.
                 </p>

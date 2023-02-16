@@ -20,10 +20,11 @@
                 <Menu :list-menus="getMenuItems()" :point="point" @changeMenu="getNewMenu"/>
 
                 <!-- Content -->
-                <div class="modal-content">
+                <div class="modal-content" style="margin-top: 0;">
                     <UpjvContent :active="active" :point="point" v-if="point.type === 'upjvBuilding'"/>
                     <BuContent :active="active" :point="point" v-if="point.type === 'upjvBU'" />
                     <RuContent :active="active" :point="point" v-if="point.type === 'upjvRU'" />
+                    <CrousContent :active="active" :point="point" v-if="point.type === 'crous'" />
                 </div>
 
 
@@ -49,10 +50,12 @@ import UpjvContent from "@/components/Popup/Contents/UpjvContent";
 import BuContent from "@/components/Popup/Contents/BuContent";
 import RuContent from "@/components/Popup/Contents/RuContent";
 import GoogleStreetView from "@/components/GoogleStreetView/GoogleStreetView";
+import CrousContent from "@/components/Popup/Contents/CrousContent.vue";
 
 export default {
     name: "Pop-up",
     components: {
+        CrousContent,
         Menu,
         UpjvContent,
         BuContent,

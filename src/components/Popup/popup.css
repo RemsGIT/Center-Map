@@ -13,7 +13,6 @@
     position: fixed;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
     z-index: 501;
     width: 100%;
@@ -48,6 +47,8 @@
 }
 .modal-content {
     padding: 0 20px 20px;
+    max-height: 500px;
+    overflow: scroll;
 }
 
 .modal h1 {
@@ -171,4 +172,33 @@
     mask: url(../../assets/icons/360-degree-rotate-icon.svg) no-repeat center;    
     width: 40px;
     height: 20px;
+}
+
+@media (min-width: 379px) and (max-width: 560px) {
+    .modal{
+        max-width: 360px !important;
+    }
+    .modal img{
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 379px) and (min-width: 220px) {
+    .modal{
+        max-width: 220px !important;
+    }
+    .modal img{
+        max-width: 180px;
+    }
+}
+
+@media (max-height: 700px){
+    .modal{
+        max-height: 420px !important;
+        overflow: scroll;
+    }
+    .modal img{
+        max-width: 380px;
+        overflow: scroll;
+    }
 }
