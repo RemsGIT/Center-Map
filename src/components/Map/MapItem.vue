@@ -15,6 +15,7 @@ export default {
             upjvPoints: upjvPoints,
             buPoints: buPoints,
             map: null,
+            controlLayers: null,
         }
     },
     mounted() {
@@ -148,6 +149,7 @@ export default {
         })
         
         const controlLayer = Leaflet.control.layers(null,layers, {collapsed: false}).addTo(map)
+        this.controlLayers = controlLayer
         this.resizeControlLayer(controlLayer)
         this.responsiveControlLayer(controlLayer)
         
@@ -183,18 +185,21 @@ export default {
             if(width <= 800) {
                 controlButton.collapse();
                 document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '0'
-
-                document.querySelector('.leaflet-control-layers').addEventListener('mouseleave', () => {
-                    controlButton.collapse();
-                });
-                document.querySelector('.leaflet-control-layers-toggle').addEventListener('mouseenter', () => {
-                    controlButton.expand();
-                });
+                document.querySelector('.leaflet-control-layers').addEventListener('mouseleave', this.collapseControl);
+                document.querySelector('.leaflet-control-layers-toggle').addEventListener('mouseenter', this.expandControl);
             }
             else {
                 controlButton.expand();
                 document.querySelector('.leaflet-control-container .leaflet-top.leaflet-right').style.top = '300px'
+                document.querySelector('.leaflet-control-layers').removeEventListener('mouseleave', this.collapseControl);
+                document.querySelector('.leaflet-control-layers-toggle').removeEventListener('mouseenter', this.expandControl);
             }
+        },
+        collapseControl(){
+            this.controlLayers.collapse()
+        },
+        expandControl(){
+            this.controlLayers.expand()
         }
     }
 }
