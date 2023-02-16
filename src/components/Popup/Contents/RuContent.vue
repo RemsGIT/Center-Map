@@ -26,7 +26,7 @@
 
             <!-- Accessibilité -->
             <div class="content-group">
-                <i class="fa-brands fa-accessible-icon"></i> Accessibilité
+                <i class="fa-solid fa-car"></i> Accessibilité
                 <hr>
                 <template v-if="point.access">{{point.access}}</template>
                 <p class="content-group-text" v-else>
