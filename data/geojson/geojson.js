@@ -2662,7 +2662,7 @@ var geojson =
                     "lat": 49.90489855782164,
                     "lng": " 2.299076914787293",
                     "icon": "buIcon.png",
-                    "subjects": "[\"Arts\",\"Lettres\",\"Langues\", \"Sciences humaines sociales\"]",
+                    "subjects": "[\"Arts\",\"Lettres\",\"Langues\",\"Sciences humaines sociales\"]",
                     "address": "10 Rue des Français Libres, 80080 Amiens",
                     "image": "citadelle_bu",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676469440943!6m8!1m7!1sv-55RDK5qeaE3qkaHbAlMQ!2m2!1d49.90281985164392!2d2.29963143349779!3f355.56688405383636!4f-1.7075985727571918!5f0.7820865974627469",
