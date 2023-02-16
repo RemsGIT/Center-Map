@@ -24,7 +24,7 @@
 
             <!-- Accessibilité -->
             <div class="content-group">
-                <i class="fa-regular fa-map"></i> Accessibilité
+                <i class="fa-solid fa-car"></i> Accessibilité
                 <hr>
                 <template v-if="point.address">{{point.access}}</template>
                 <p class="content-group-text" v-else>
