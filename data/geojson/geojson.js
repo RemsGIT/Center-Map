@@ -1673,7 +1673,8 @@ var geojson =
                     "rooms": "['Salles de cours, TD et TP']",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676477924417!6m8!1m7!1siMzDxiVo4LZnELvTAwRV2g!2m2!1d49.89840091375763!2d2.297352159584402!3f285.7095148882449!4f15.034297415197386!5f0.7820865974627469",
-                    "access": "Stationnement dans les rues adjacentes"
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "CURI, 5 rue du Moulin Neuf"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1739,7 +1740,8 @@ var geojson =
                     "rooms": "['Salles de cours, TD et TP']",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676476910234!6m8!1m7!1sz7O0qGC1LWmHFQ5kWtk2VA!2m2!1d49.89856246844496!2d2.296150402016795!3f119.34133131251622!4f6.531305937356137!5f1.0791827876466293",
-                    "access": "Stationnement dans les rues adjacentes"
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "CURI, 5 rue du Moulin Neuf"
                 },
                 "geometry": {
                     "coordinates": [
@@ -1817,7 +1819,8 @@ var geojson =
                     "amphitheaters": "[]",
                     "image": "",
                     "gStreetViewLink": "https://www.google.com/maps/embed?pb=!4v1676478437212!6m8!1m7!1sEYKjX3K8hrOVVq-VyM1mTw!2m2!1d49.89823798307318!2d2.297357083293907!3f246.93734232208595!4f10.89253625108033!5f0.7820865974627469",
-                    "access": "Stationnement dans les rues adjacentes"
+                    "access": "Stationnement dans les rues adjacentes",
+                    "address": "CURI, 5 rue du Moulin Neuf"
                 },
                 "geometry": {
                     "coordinates": [
