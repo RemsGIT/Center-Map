@@ -19,10 +19,12 @@
 @media (max-height: 700px){
     .modal.modal-lg{
         max-height: 220px !important;
-        overflow: scroll;
     }
     .modal-content iframe{
         max-height: 180px;
         overflow: scroll;
+    }
+    .modal-content {
+        padding: 10px !important;
     }
 }

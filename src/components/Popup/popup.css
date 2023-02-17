@@ -193,12 +193,14 @@
 }
 
 @media (max-height: 700px){
-    .modal{
-        max-height: 420px !important;
-        overflow: scroll;
+    .modal-content{
+        max-height: 300px !important;
     }
-    .modal img{
-        max-width: 380px;
-        overflow: scroll;
+    .modal-menu-list {
+        font-size: 12px;
+    }
+    .modal-menu-list li {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
