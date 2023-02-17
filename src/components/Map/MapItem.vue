@@ -22,7 +22,7 @@ export default {
         let map;
         
         // Geojson
-        
+
         const geoJsonBU = Leaflet.geoJSON(geojson, {
             filter: (feature) => {
                 return feature.properties.type === "upjvBU"
@@ -73,7 +73,8 @@ export default {
                         colorFill: 'purple'
                     })
                 })
-            }
+            },
+            
         })
         const geoJsonRU = Leaflet.geoJSON(geojson, {
             filter: (feature) => {
@@ -99,7 +100,8 @@ export default {
                         colorFill: 'yellow'
                     })
                 })
-            }
+            },
+            
         })
         const geoJsonCROUS = Leaflet.geoJSON(geojson, {
             filter: (feature) => {
@@ -128,6 +130,7 @@ export default {
             }
         })
         
+
         const layers = {
             'Bibliothèque universitaire': geoJsonBU,
             'Bâtiment UPJV': geoJsonUPJV,
@@ -158,7 +161,12 @@ export default {
             e.style.padding = '8px 5px'
             e.style.cursor = 'pointer'
         })
-        //map.fitBounds(geoJson.getBounds())
+
+        const layerContainer = document.querySelector('.leaflet-control-layers')
+        layerContainer.style.borderColor = '#B78C68'
+        layerContainer.style.borderWidth = '3px'
+        layerContainer.style.backgroundColor = '#F4F0ED'
+        
         
 
         // Génération du fond de carte
@@ -168,8 +176,27 @@ export default {
             zoomOffset: -1,
             tileSize: 512,
         }).addTo(map);
+
         
         this.map = map
+        
+        geoJsonUPJV.eachLayer(layer => {
+            const m = Leaflet.marker(layer.getCenter(), {icon: this.getMarkerIcon('upjv')}).addTo(geoJsonUPJV)
+            m.on('click', () => {this.clickOnPolygon(layer)})
+        })
+        geoJsonBU.eachLayer(layer => {
+            const m = Leaflet.marker(layer.getCenter(), {icon: this.getMarkerIcon('bu')}).addTo(geoJsonBU)
+            m.on('click', () => {this.clickOnPolygon(layer)})
+        })
+        geoJsonRU.eachLayer(layer => {
+            const m = Leaflet.marker(layer.getCenter(), {icon: this.getMarkerIcon('ru')}).addTo(geoJsonRU)
+            m.on('click', () => {this.clickOnPolygon(layer)})
+        })
+        geoJsonCROUS.eachLayer(layer => {
+            const m = Leaflet.marker(layer.getCenter(), {icon: this.getMarkerIcon('crous')}).addTo(geoJsonCROUS)
+            m.on('click', () => {this.clickOnPolygon(layer)})
+        })
+        
     },
     methods: {
         clickOnPolygon(layer){
@@ -200,6 +227,35 @@ export default {
         },
         expandControl(){
             this.controlLayers.expand()
+        },
+        getMarkerIcon(value){
+            let icon = null;
+            switch(value) {
+                case 'upjv':
+                    icon = Leaflet.icon({
+                        iconUrl: 'images/markers/marker_upjv.png',
+                        iconSize:     [32, 32], // size of the icon
+                    });
+                    break;
+                case 'bu':
+                    icon = Leaflet.icon({
+                        iconUrl: 'images/markers/marker_bu.png',
+                        iconSize:     [32, 32], // size of the icon
+                    });
+                    break;
+                case 'ru':
+                    icon = Leaflet.icon({
+                        iconUrl: 'images/markers/marker_ru.png',
+                        iconSize:     [32, 32], // size of the icon
+                    });
+                    break;
+                case 'crous':
+                    icon = Leaflet.icon({
+                        iconUrl: 'images/markers/marker_crous.png',
+                        iconSize:     [32, 32], // size of the icon
+                    });
+            }
+            return icon;
         }
     }
 }
