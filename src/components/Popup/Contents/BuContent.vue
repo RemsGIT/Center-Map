@@ -45,8 +45,9 @@
 
         <!-- Les amphithéatres -->
         <template v-if="active === 'pictures'">
-            les photos
-            {{point.pictures}}
+            <p class="content-group-text">
+                Aucune photo n'est renseignée.
+            </p>
         </template>
     </div>
 </template>
