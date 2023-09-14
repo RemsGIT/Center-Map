@@ -170,7 +170,7 @@ export default {
         
 
         // Génération du fond de carte
-        Leaflet.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmVteWNhcyIsImEiOiJjbDlvOWs4Y3UwY2xsNDFrNGRqNDIxMThvIn0.052x69fiyb0ek6wqvOjGMA', {
+        Leaflet.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmVteWNhcyIsImEiOiJjbGxzY3Y3c3YweDB2M2VwcHhzOTh2aGE2In0.g4kYgrf9FzOCjuEmHW8-Qg', {
             maxZoom: 19,
             id: 'mapbox/outdoors-v12',
             zoomOffset: -1,
